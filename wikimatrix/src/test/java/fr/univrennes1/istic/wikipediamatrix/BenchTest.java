@@ -7,7 +7,11 @@ import java.io.File;
 import java.io.FileReader;
 
 import org.junit.Test;
-
+/**
+ * 
+ * @author Donatien
+ *
+ */
 public class BenchTest {
 	
 	/*
