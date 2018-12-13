@@ -23,8 +23,10 @@ public class TestStat {
 	public static void main(String[] args) throws Exception 
 	{	
 		String NEW_LINE_SEPARATOR = "\n";
+		File file = new File("inputdata" + File.separator + "wikiurls.txt");
+		
 		lectureTXT wikitext=new lectureTXT();
-		wikitext.charger();
+		wikitext.charger(file);
 		ArrayList<Integer> colonneByTable=new ArrayList<Integer>();
 		ArrayList<Integer> ligneByTable=new ArrayList<Integer>();
 		TestStat stat1=new TestStat();

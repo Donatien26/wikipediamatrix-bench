@@ -19,10 +19,9 @@ public class lectureTXT {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void charger() throws Exception {
+	public void charger(File file) throws Exception {
 
 
-		File file = new File("inputdata" + File.separator + "wikiurls.txt");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		String url;
 		String BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/";
