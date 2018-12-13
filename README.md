@@ -66,4 +66,4 @@ Ajouter les d??pendances suivantes dans le fichier pom.xml qui g??re les dependa
 
 #Le diagramme de classe :
 
-![Ci dessus le diagramme de classe de cette application](/Users/Donatien/Desktop/diagramme.png "Title")
+![Ci dessus le diagramme de classe de cette application](https://github.com/Donatien26/wikipediamatrix-bench/blob/master/wikimatrix/diagramme.png?raw=true "Title")
