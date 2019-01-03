@@ -3,7 +3,11 @@ package Validator;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.*;
-
+/**
+ * Classe permettant de verifier la validité des Urls donner
+ * @author Donatien
+ *
+ */
 public class ValiderUrl extends Validator{
 	URL url;
 

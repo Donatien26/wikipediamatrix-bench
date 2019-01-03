@@ -1,7 +1,11 @@
 package Validator;
 
 import org.jsoup.nodes.Element;
-
+/**
+ * Classe qui permet de verifier si l'objet table que l'on recupere est bien un wikitable sortable
+ * @author Donatien
+ *
+ */
 public class tableValidator extends Validator {
 	
 	private Element table;

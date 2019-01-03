@@ -10,7 +10,11 @@ import java.net.URL;
 import java.util.ArrayList;
 
 import Validator.ValiderUrl;
-
+/**
+ * Permet de lire les fichiers txt
+ * @author Donatien
+ *
+ */
 public class lectureTXT {
 	private ArrayList<ValiderUrl> lienPage =new ArrayList<ValiderUrl>();
 	private ArrayList<String>nomCSV= new ArrayList<String>();
@@ -18,7 +22,11 @@ public class lectureTXT {
 	public lectureTXT() {
 		// TODO Auto-generated constructor stub
 	}
-
+	/**
+	 * Charge les urls present dans le fichier wikitext
+	 * @param file
+	 * @throws Exception
+	 */
 	public void charger(File file) throws Exception {
 
 

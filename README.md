@@ -1,7 +1,15 @@
-# Wikipedia a quoi ca sert ?
+Wikipedia extracteur de tableaux
+====================================
+```
+cree par Donatien Eneman
+Nov 2018
+Dans le cadre du projet du cours de developpement d'application
+```
 
-Le but de ce programme est d'extraire les tableaux wikipedia qui sont qualifi?? en tant que wikitable sortable. Nous avions au d??part plus de 300 Urls wikipedia et le but ??tait de :
-*r??cuperer le plus de tableau possible
+
+Le but de ce programme est d'extraire les tableaux wikipedia qui sont qualifie en tant que wikitable sortable. 
+Nous avions au depart plus de 300 Urls wikipedia et le but etait de :
+*recuperer le plus de tableau possible
 *Les exporter en fichier CSV dans le dossier output/html
 
 #Licence

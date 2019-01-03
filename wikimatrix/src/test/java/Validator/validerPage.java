@@ -1,7 +1,11 @@
 package Validator;
 
 import Metier.Page;
-
+/**
+ * Permet de valider une page cad si la page contient ou non un tableaude type wikitable sortable
+ * @author Donatien
+ *
+ */
 public class validerPage extends Validator {
 	
 	private Page page;

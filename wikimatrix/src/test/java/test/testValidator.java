@@ -13,7 +13,11 @@ import Outils.Internet;
 import Validator.Validator;
 import Validator.ValiderUrl;
 import Validator.validerPage;
-
+/**
+ * On test differents validator
+ * @author Donatien
+ *
+ */
 public class testValidator {
 
 

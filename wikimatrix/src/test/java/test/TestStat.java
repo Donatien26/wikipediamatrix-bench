@@ -13,13 +13,21 @@ import Metier.Page;
 import Metier.Tableau;
 import Outils.Internet;
 import Outils.lectureTXT;
-
+/**
+ * Permet de sortir les differents resultat stat present dans le mini rapport
+ * @author Donatien
+ *
+ */
 public class TestStat {
 
 	public TestStat() {
 
 	}
-
+/**
+ * 
+ * @param args
+ * @throws Exception
+ */
 	public static void main(String[] args) throws Exception 
 	{	
 		String NEW_LINE_SEPARATOR = "\n";
@@ -98,7 +106,11 @@ public class TestStat {
 
 	}
 
-
+/**
+ * 
+ * @param list
+ * @return Moyenne
+ */
 	public int moyenne(ArrayList<Integer> list) 
 	{	
 		int somme=0;

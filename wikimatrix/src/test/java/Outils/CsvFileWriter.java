@@ -11,18 +11,28 @@ import org.apache.commons.csv.CSVPrinter;
 import Metier.Cellule;
 import Metier.Ligne;
 import Metier.Page;
-
+/**
+ * Classe permettant de creer les fichiers CSV
+ * @author Donatien
+ *
+ */
 
 public class CsvFileWriter {
 
 	//Delimiter used in CSV file
 	private static final String NEW_LINE_SEPARATOR = "\n";
 
-
+	/**
+	 * Constructeur
+	 */
 	public CsvFileWriter() {
 
 	}
-
+	/**
+	 * Creer les fichiers csv correspondant au tableaux present sur la page dans le chemin (filename)
+	 * @param fileName
+	 * @param page
+	 */
 	public void writeCsvFile(String fileName, Page page) {
 
 

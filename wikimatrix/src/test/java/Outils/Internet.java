@@ -18,7 +18,11 @@ import Metier.Ligne;
 import Metier.Page;
 import Metier.Tableau;
 import Validator.tableValidator;
-
+/**
+ * Classe permettant de faire du scrapping sur wikipedia
+ * @author Donatien
+ *
+ */
 public class Internet {
 
 	public Internet() {
@@ -27,7 +31,12 @@ public class Internet {
 
 
 
-	@Test
+	/**
+	 * Recupere les tableaux qui se trouvent sur la page mise en arguments
+	 * @param chemin
+	 * @return
+	 * @throws IOException
+	 */
 	public Page RecupererTableauUrl(String chemin) throws IOException {
 		//on charge la page wikipédia et retourne un document HTML
 		Document doc = Jsoup.connect(chemin).get();
@@ -64,7 +73,11 @@ public class Internet {
 
 
 	}
-
+	/**
+	 * REcupere le body de l'element table recuperer a partir de JSOup
+	 * @param table
+	 * @return
+	 */
 	public Body recupererBody(Element table) {
 		Elements rows=table.select("tr");
 		Ligne ligne= new Ligne();
@@ -87,7 +100,11 @@ public class Internet {
 		return body;
 
 	}
-
+	/**
+	 * Recupere les elements qui compose une ligne
+	 * @param cols
+	 * @return
+	 */
 	public Ligne lectureLigne(Elements cols) {
 		Ligne ligne= new Ligne();
 		Cellule cellule=new Cellule();
@@ -100,7 +117,9 @@ public class Internet {
 		return ligne;
 
 	}
-
+	/**
+	 * REcupere le header de l'element table recuperer a partir de JSOup
+	 */
 	public Header entete(Element table) {
 		//je selectionne les entete
 		Elements ColEntete=table.select("tr").first().select("th");
